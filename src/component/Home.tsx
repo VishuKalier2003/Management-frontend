@@ -4,7 +4,6 @@ import "../styles/BaseStyles.css";
 import Footer from "./Core/Footer";
 import Header from "./Core/Header";
 import Effects from "./Core/Effects";
-import Features from "../HomeComponents/Features";
 import BestServices from "../HomeComponents/BestServices";
 import { Bounce, Fade, Flip, Hinge, JackInTheBox, Roll, Rotate, Slide, Zoom } from "react-awesome-reveal";
 import { useNavigate } from "react-router-dom";
@@ -119,7 +118,7 @@ const Home = () => {
                 </ul>
             </div>
             </Slide>
-            <BestServices /><Features />
+            <BestServices />
             <Notes />
             <Slide damping={100} delay={400} direction="right">
             <div className='font-1 relative background-color-2 text-2xl w-full p-6'>

@@ -169,15 +169,14 @@ const Features = () => {
                         </div>
                     </div>
                 </div>
-                <div className='item5' id='rk-1' onMouseEnter={() => {MouseEnterEffect(['p-1', 'p-2', 'p-3', 'p-4', 'p-5'],
-                ['v-1', 'v-2', 'v-3', 'v-4', 'v-5'], ['rk-1', 'rk-2', 'rk-3'], 'rk-1')}}
-                onMouseLeave={() => {MouseLeaveEffect(['p-1', 'p-2', 'p-3', 'p-4', 'p-5'],
-                ['v-1', 'v-2', 'v-3', 'v-4', 'v-5'], ['rk-1', 'rk-2', 'rk-3'], 'rk-1')}}>
+                <div className='item5' id='rk-1' onMouseEnter={() => {MouseEnterEffect(['p-1', 'p-2', 'p-4', 'p-5'],
+                ['v-1', 'v-2', 'v-4', 'v-5'], ['rk-1', 'rk-2', 'rk-3'], 'rk-1')}}
+                onMouseLeave={() => {MouseLeaveEffect(['p-1', 'p-2', 'p-4', 'p-5'],
+                ['v-1', 'v-2', 'v-4', 'v-5'], ['rk-1', 'rk-2', 'rk-3'], 'rk-1')}}>
                     <div className='relative background-color-3 w-full h-20 flex flex-col' id='rk-2'>
                         <div className='relative flex flex-row pl-6 p-3' id='rk-3'>
                             <p className='text-6xl font-color-1' id='p-1'>C</p><p className='relative text-3xl top-5' id='v-1'>onnect with </p>
-                            <p className='text-6xl font-color-1' id='p-2'>A</p><p className='relative text-3xl top-5' id='v-2'>nyone via </p>
-                            <p className='text-6xl font-color-1' id='p-3'>L</p><p className='relative text-3xl top-5' id='v-3'>ogs</p>
+                            <p className='text-6xl font-color-1' id='p-2'>A</p><p className='relative text-3xl top-5' id='v-2'>nyone</p>
                             <p className='text-6xl font-color-1' id='p-4'>S</p><p className='relative text-3xl top-5' id='v-4'>eamlessly</p>
                             <p className='text-6xl font-color-1' id='p-5'>A</p><p className='relative text-3xl top-5' id='v-5'>nytime</p>
                         </div>

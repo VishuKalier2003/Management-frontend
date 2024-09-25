@@ -4,6 +4,7 @@ import Footer from '../Core/Footer';
 import HeaderAdmin from '../Core/HeaderAdmin';
 import Effects from '../Core/Effects';
 import { Fade, Slide, Zoom } from 'react-awesome-reveal';
+import FAQs from '../../AdminComponents/FAQs';
 
 interface AdminItem {
     id ?: string,
@@ -279,6 +280,7 @@ const AdminPage = () => {
                 </div>
                 </Zoom>
             </section>
+            <FAQs />
             <Footer />
         </div>
     );
